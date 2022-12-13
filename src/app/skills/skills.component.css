@@ -1,0 +1,34 @@
+.skills {
+    margin: 50px;
+    margin-top: 10px;
+    width: 60%;
+    list-style-type: none;
+    box-sizing: border-box;
+    border: 1px solid black;
+    box-shadow: 5px 8px 3px gray;
+    background-color: rgb(115, 201, 247);
+    margin-left: 300px;
+
+}
+
+h2 {
+    margin-top: 10px;
+    color: rgb(20, 11, 120);
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+p {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

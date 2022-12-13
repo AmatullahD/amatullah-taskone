@@ -1,0 +1,11 @@
+<div class="body">
+    <h2 class="heading">EDUCATION:</h2>
+    <ul>
+        <li *ngFor="let data of timelineData">
+            <h3>{{data.school}}</h3>
+            <h4>{{data.degree}}</h4>
+            <h4>{{data.startDate}} - {{data.endDate}}</h4>
+            <h4>{{data.percentage}}%</h4>
+        </li>
+    </ul>
+</div>
